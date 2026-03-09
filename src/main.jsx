@@ -6,10 +6,8 @@ import ContextProvider from './context/ContextProvider.jsx'
 import { Provider } from 'react-redux'
 import { store } from './redux/store/store.js'
 
-// basename='/React-Practice'
-
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React-Practice">
     <Provider store={store}>
       <ContextProvider>
           <App />
