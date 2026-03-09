@@ -1,0 +1,88 @@
+header {
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.497);
+  position: relative;
+  z-index: 100;
+  
+  #header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #ffffffb2;
+    align-items: center;
+    text-align: center;
+
+    menu {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        padding: 10px;
+      }
+
+      li:hover {
+          color: #fffffff5;
+          border-top: 2px solid white;
+      }
+
+      .active {
+        color: #fffffff5;
+        border-top: 2px solid white;
+        padding: 10px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    #header {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          h1 {font-size: 30px;}
+
+          menu {
+            flex-direction: row;
+            width: 70%;
+            justify-content: space-between;
+          }
+    }
+  }
+
+  #go_to_php {
+    background-color: #6b74a0;
+    position: fixed;
+    right: 6%;
+    bottom: 8%;
+    padding: 6px 14px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.416);
+    text-shadow: 1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgba(255, 255, 255, 0.778), -1px 1px 0 rgba(255, 255, 255, 0.778), 1px -1px 0 rgba(255, 255, 255, 0.778);
+
+    p {
+      transform: skewX(-8deg);
+    }
+  }
+
+  #go_to_php:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+}
+
+footer {
+  background-color: black;
+  color: #fffffff5;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}

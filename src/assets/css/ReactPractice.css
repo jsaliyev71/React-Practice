@@ -1,0 +1,40 @@
+.reactCon {
+  display: flex;
+  flex-direction: column;
+  background-color: #3333334e;
+  min-height: 100vh;
+
+  .reactMenu {
+    text-transform: capitalize;
+    background-color: #97c0b0;
+    border-right: 2px solid #333;
+    padding: 10px;
+
+    li {
+      padding: 10px;
+      width: 130px;
+
+      .active {
+          border-bottom: 2px solid #284038;
+      }
+
+      :hover {
+        border-bottom: 2px solid #284038;
+      }
+    }
+  }
+
+  .reactContainer {
+    width: 100%;
+
+    .reactElementCon {
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .reactCon {flex-direction: row;}
+}

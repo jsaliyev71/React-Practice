@@ -1,0 +1,42 @@
+.infoDanger {
+    background-color: rgb(255, 208, 208);
+    color: darkred;
+    border: 2px solid rgb(56, 0, 0);
+}
+
+.infoSuccess {
+    background-color: rgb(215, 255, 215);
+    color: darkgreen;
+    border: 2px solid rgb(9, 56, 0);
+}
+
+.infoWarning {
+    background-color: rgb(255, 247, 213);
+    color: goldenrod;
+    border: 2px solid rgb(56, 36, 0);
+}
+
+.infoInform {
+    background-color: rgba(0, 0, 139, 0.195);
+    background-color: darkblue;
+    border: 2px solid rgb(0, 5, 56);
+}
+
+.infoAnimation {
+    text-transform: capitalize;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 30px;
+    right: -100%;
+    padding: 10px 40px;
+    animation-name: infoAnima;
+    animation-duration: 4s;
+}
+
+@keyframes infoAnima {
+    0% {right: -100%;}
+    25% {right: 30px;}
+    50% {right: 30px;}
+    75% {right: 30px;}
+    100% {right: -100%;}
+}

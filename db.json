@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Jala's Coding Journey",
+      "body": "Started with HTML and CSS, but soon wanted to build something real. JavaScript felt like magic at first — one line could change the whole page. Now, every new syntax is a step toward understanding how the web breathes."
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Discovering Backend",
+      "body": "At first, everything in Express.js looked confusing — routes, responses, requests. But slowly, it became clear that the backend is like the heartbeat of an app: invisible, but vital. Now I separate routing, logic, and server setup for clean, professional structure."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "The Dream Project",
+      "body": "ASleep Midst Resonance is not just a game — it’s a concept. A medieval world where ASMR isn’t just relaxing, it’s power. Monsters can be calmed, lulled, or resisted. The goal is not endless fights, but meaningful silence."
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Learning Languages",
+      "body": "Arabic feels poetic; Russian feels logical. Each sentence I learn changes how I think. I’m not just learning to speak differently — I’m learning to think differently."
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Creative Experiments",
+      "body": "I once made a parody video in Blender where the scenes changed with lyrics. It wasn’t professional, but people loved it. That’s when I realized — creativity matters more than perfection."
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "Becoming Professional",
+      "body": "Learning to structure projects, write modular code, and organize files properly changed everything. It’s not just about getting it to work — it’s about making it last."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "ASleep Midst Resonance",
+      "category": "Game Development",
+      "description": "A lore-driven ASMR combat game built in Unity with C#. Uses sound-based mechanics to affect enemies and world states.",
+      "status": "In Development"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio Website",
+      "category": "Web Development",
+      "description": "A personal site built with Node.js, Express, and EJS to showcase projects and experiments in design and development.",
+      "status": "Designing"
+    },
+    {
+      "id": 3,
+      "title": "Accountant Helper",
+      "category": "Backend Practice",
+      "description": "A practice project inspired by accounting tools like 1C — focuses on managing records, transactions, and reports using Express.js.",
+      "status": "Planned"
+    },
+    {
+      "id": 4,
+      "title": "React Store",
+      "category": "Frontend Learning",
+      "description": "A small store built with React that fetches products from a db.json backend and displays them dynamically.",
+      "status": "Completed"
+    }
+  ],
+  "skills": [
+    { "id": 1, "name": "HTML", "level": "Strong" },
+    { "id": 2, "name": "CSS", "level": "Comfortable" },
+    { "id": 3, "name": "JavaScript", "level": "Intermediate" },
+    { "id": 4, "name": "Node.js", "level": "Learning" },
+    { "id": 5, "name": "Express.js", "level": "Learning" },
+    { "id": 6, "name": "React", "level": "Learning" },
+    { "id": 7, "name": "Unity (C#)", "level": "Beginner" },
+    { "id": 8, "name": "Blender", "level": "Experimenting" }
+  ],
+  "languages": [
+    { "id": 1, "name": "English", "level": "Fluent" },
+    { "id": 2, "name": "Arabic", "level": "Learning" },
+    { "id": 3, "name": "Russian", "level": "Learning" },
+    { "id": 4, "name": "Azerbaijani", "level": "Native" }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "Build a Professional Portfolio",
+      "details": "Combine backend, frontend, and creative design to create a personal website that feels alive and organized."
+    },
+    {
+      "id": 2,
+      "title": "Master React and Node",
+      "details": "Understand how frontend and backend talk to each other through APIs, routes, and states."
+    },
+    {
+      "id": 3,
+      "title": "Release a Playable Demo of ASleep Midst Resonance",
+      "details": "Create the first chapter of the game with working combat and ASMR trigger mechanics."
+    }
+  ]
+}
